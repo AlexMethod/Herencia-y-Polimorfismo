@@ -12,9 +12,9 @@ public class Figura
        area = 0;
    }
    
-   /*public void calculaArea(){
+   public void calculaArea(){
        
-   }*/
+   }
    
    public float accedeArea(){
        return area;

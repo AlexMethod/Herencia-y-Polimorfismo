@@ -32,7 +32,14 @@ public class Principal
       
       for(Figura fig:arr){ //For mejorado
          fig.calculaArea();
-         System.out.println(fig.accedeArea());
+         //System.out.println(fig.accedeArea());
+      }
+      t1.ponerNombre("Triangulo");
+      c1.ponerNombre("Cuadrado");
+      cc1.ponerNombre("Circulo");
+      
+      for(Figura f:arr){
+          System.out.println(f.dimeInfo());
       }
    }
 }

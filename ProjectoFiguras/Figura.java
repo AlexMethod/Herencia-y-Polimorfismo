@@ -8,8 +8,10 @@
 public class Figura
 {
    protected float area;
+   protected String nombre;
    public Figura(){
        area = 0;
+       nombre="";
    }
    
    public void calculaArea(){
@@ -18,5 +20,13 @@ public class Figura
    
    public float accedeArea(){
        return area;
+   }
+   
+   public String accedeNombre(){
+       return nombre;
+   }
+   
+   public String dimeInfo(){
+       return "" + area;
    }
 }

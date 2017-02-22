@@ -16,4 +16,12 @@ public class Circulo extends Figura
     public void calculaArea(){
         area = (float)(3.141592*radio*radio)/2;
     }
+    
+    public void ponerNombre(String nom){
+        nombre = nom;
+    }
+    
+    public String dimeInfo(){
+        return nombre + " " + super.dimeInfo();
+    }
 }

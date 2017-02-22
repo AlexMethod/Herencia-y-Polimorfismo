@@ -17,4 +17,12 @@ public class Cuadrado extends Figura
         area = lado*lado;
     }
     
+    public void ponerNombre(String nom){
+        nombre = nom;
+    }
+    
+    public String dimeInfo(){
+        return nombre + " " + super.dimeInfo();
+    }
+    
 }

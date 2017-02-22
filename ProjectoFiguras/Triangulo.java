@@ -18,4 +18,12 @@ public class Triangulo extends Figura
     public void calculaArea(){
         area = base*altura/2;
     }
+    
+    public void ponerNombre(String nom){
+        nombre = nom;
+    }
+    
+    public String dimeInfo(){
+        return nombre + " " + super.dimeInfo();
+    }
 }

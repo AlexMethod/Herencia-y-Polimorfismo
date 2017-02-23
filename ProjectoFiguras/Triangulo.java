@@ -9,7 +9,10 @@ public class Triangulo extends Figura
 {
     private float base;
     private float altura;
-    
+    @Override
+    public String toString(){
+        return ("Triangulo con area: " + super.toString());
+    }
     public Triangulo (float b, float a){
         base = b;
         altura = a;

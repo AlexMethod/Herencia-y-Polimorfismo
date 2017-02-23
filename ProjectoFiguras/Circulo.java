@@ -8,7 +8,12 @@
 public class Circulo extends Figura
 {
     private float radio;
-    
+    @Override 
+    public String toString(){
+        return ("Circulo con area: " + super.toString()); /*el objeto super accede a los metodos 
+        del padre o superclase inmediata
+        */
+    }
     public Circulo(float r){
         radio = r;
     }

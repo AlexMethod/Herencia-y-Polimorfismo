@@ -9,6 +9,10 @@ public class Figura
 {
    protected float area;
    protected String nombre;
+   @Override
+   public String toString(){
+        return ("" + area);
+    }
    public Figura(){
        area = 0;
        nombre="";

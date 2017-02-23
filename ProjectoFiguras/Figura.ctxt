@@ -1,12 +1,14 @@
 #BlueJ class context
 comment0.params=
-comment0.target=Figura()
+comment0.target=java.lang.String\ toString()
 comment1.params=
-comment1.target=void\ calculaArea()
+comment1.target=Figura()
 comment2.params=
-comment2.target=float\ accedeArea()
+comment2.target=void\ calculaArea()
 comment3.params=
-comment3.target=java.lang.String\ accedeNombre()
+comment3.target=float\ accedeArea()
 comment4.params=
-comment4.target=java.lang.String\ dimeInfo()
-numComments=5
+comment4.target=java.lang.String\ accedeNombre()
+comment5.params=
+comment5.target=java.lang.String\ dimeInfo()
+numComments=6

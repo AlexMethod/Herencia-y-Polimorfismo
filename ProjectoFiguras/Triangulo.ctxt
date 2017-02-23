@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=b\ a
-comment0.target=Triangulo(float,\ float)
-comment1.params=
-comment1.target=void\ calculaArea()
-comment2.params=nom
-comment2.target=void\ ponerNombre(java.lang.String)
-comment3.params=
-comment3.target=java.lang.String\ dimeInfo()
-numComments=4
+comment0.params=
+comment0.target=java.lang.String\ toString()
+comment1.params=b\ a
+comment1.target=Triangulo(float,\ float)
+comment2.params=
+comment2.target=void\ calculaArea()
+comment3.params=nom
+comment3.target=void\ ponerNombre(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ dimeInfo()
+numComments=5

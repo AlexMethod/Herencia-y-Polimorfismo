@@ -39,7 +39,7 @@ public class Principal
       cc1.ponerNombre("Circulo");
       
       for(Figura f:arr){
-          System.out.println(f.dimeInfo());
+          System.out.println(f);
       }
    }
 }

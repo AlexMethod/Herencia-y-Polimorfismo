@@ -7,7 +7,15 @@
  */
 public class Circulo extends Figura
 {
+    
     private float radio;
+    
+    /*@Override
+    public boolean equals(Object obj){
+        return this.radio==((Circulo)obj).radio;
+        //Se hace cast a circulo ya que el atributo radio no existe en la clase Object :)
+    }*/
+    
     @Override 
     public String toString(){
         return ("Circulo con area: " + super.toString()); /*el objeto super accede a los metodos 

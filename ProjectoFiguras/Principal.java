@@ -30,7 +30,7 @@ public class Principal
           System.out.println(f.accedeArea()); 
        }*/
       
-      for(Figura fig:arr){ //For mejorado
+     /* for(Figura fig:arr){ //For mejorado
          fig.calculaArea();
          //System.out.println(fig.accedeArea());
       }
@@ -40,6 +40,14 @@ public class Principal
       
       for(Figura f:arr){
           System.out.println(f);
+      }*/
+      
+      Figura f1=new Circulo(3);
+      Figura f2=new Triangulo(3,6);
+      if(f1.equals(f2)){
+          System.out.println("Son iguales");
+      }else{
+          System.out.println("Son diferentes");
       }
    }
 }

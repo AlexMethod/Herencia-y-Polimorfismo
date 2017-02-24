@@ -10,6 +10,10 @@ public class Figura
    protected float area;
    protected String nombre;
    @Override
+    public boolean equals(Object obj){
+        return this.area==((Figura)obj).area;
+    }
+   @Override
    public String toString(){
         return ("" + area);
     }

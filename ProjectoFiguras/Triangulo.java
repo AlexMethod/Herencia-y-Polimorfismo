@@ -15,12 +15,11 @@ public class Triangulo extends Figura
     public String toString(){
         return ("Triangulo con area: " + super.toString());
     }
-    public Triangulo (float b, float a){
-        base = b;
-        altura = a;
+    public Triangulo (int x,int y){
+        super(x,y);
     }
     
-    public void calculaArea(){
+    /*public void calculaArea(){
         area = base*altura/2;
     }
     
@@ -30,10 +29,9 @@ public class Triangulo extends Figura
     
     public String dimeInfo(){
         return nombre + " " + super.dimeInfo();
-    }
+    }*/
     
     public void pintaFigura(){
-        Ventana ven= new Ventana(400,400);
-        ven.setVisible(true);
+        
     }
 }

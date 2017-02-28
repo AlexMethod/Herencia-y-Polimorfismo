@@ -1,15 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ toString()
-comment0.text=@Override\r\n\ \ \ \ public\ boolean\ equals(Object\ obj){\r\n\ \ \ \ \ \ \ \ return\ this.radio\=\=((Circulo)obj).radio;\r\n\ \ \ \ \ \ \ \ //Se\ hace\ cast\ a\ circulo\ ya\ que\ el\ atributo\ radio\ no\ existe\ en\ la\ clase\ Object\ \:)\r\n}
-comment1.params=r
-comment1.target=Circulo(float)
-comment2.params=
-comment2.target=void\ calculaArea()
-comment3.params=nom
-comment3.target=void\ ponerNombre(java.lang.String)
-comment4.params=
-comment4.target=java.lang.String\ dimeInfo()
-comment5.params=
-comment5.target=void\ pintaFigura()
-numComments=6
+comment0.params=x\ y
+comment0.target=Circulo(int,\ int)
+comment0.text=@Override\ \r\n\ \ \ \ public\ String\ toString(){\r\n\ \ \ \ \ \ \ \ return\ ("Circulo\ con\ area\:\ "\ +\ super.toString());\ /*el\ objeto\ super\ accede\ a\ los\ metodos\ \r\n\ \ \ \ \ \ \ \ del\ padre\ o\ superclase\ inmediata\r\n\ \ \ \ \ \ \ \ \r\n}
+comment1.params=
+comment1.target=void\ pintaFigura()
+comment1.text=public\ String\ dimeInfo(){\r\n\ \ \ \ \ \ \ \ return\ nombre\ +\ "\ "\ +\ super.dimeInfo();\r\n}
+numComments=2

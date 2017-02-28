@@ -1,18 +1,15 @@
 #BlueJ class context
-comment0.params=obj
-comment0.target=boolean\ equals(java.lang.Object)
+comment0.params=x\ y
+comment0.target=Figura(int,\ int)
+comment0.text=@Override\r\n\ \ \ public\ String\ toString(){\r\n\ \ \ \ \ \ \ \ return\ (""\ +\ area);\r\n}
 comment1.params=
-comment1.target=java.lang.String\ toString()
+comment1.target=java.lang.String\ accedeNombre()
 comment2.params=
-comment2.target=Figura()
+comment2.target=void\ pintaFigura()
 comment3.params=
-comment3.target=void\ calculaArea()
+comment3.target=int\ getPosX()
 comment4.params=
-comment4.target=float\ accedeArea()
+comment4.target=int\ getPosY()
 comment5.params=
-comment5.target=java.lang.String\ accedeNombre()
-comment6.params=
-comment6.target=java.lang.String\ dimeInfo()
-comment7.params=
-comment7.target=void\ pintaFigura()
-numComments=8
+comment5.target=java.lang.String\ getName()
+numComments=6

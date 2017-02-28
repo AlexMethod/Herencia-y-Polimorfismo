@@ -1,14 +1,9 @@
 #BlueJ class context
 comment0.params=
 comment0.target=java.lang.String\ toString()
-comment1.params=b\ a
-comment1.target=Triangulo(float,\ float)
+comment1.params=x\ y
+comment1.target=Triangulo(int,\ int)
 comment2.params=
-comment2.target=void\ calculaArea()
-comment3.params=nom
-comment3.target=void\ ponerNombre(java.lang.String)
-comment4.params=
-comment4.target=java.lang.String\ dimeInfo()
-comment5.params=
-comment5.target=void\ pintaFigura()
-numComments=6
+comment2.target=void\ pintaFigura()
+comment2.text=public\ void\ calculaArea(){\r\n\ \ \ \ \ \ \ \ area\ \=\ base*altura/2;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ ponerNombre(String\ nom){\r\n\ \ \ \ \ \ \ \ nombre\ \=\ nom;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ String\ dimeInfo(){\r\n\ \ \ \ \ \ \ \ return\ nombre\ +\ "\ "\ +\ super.dimeInfo();\r\n}
+numComments=3

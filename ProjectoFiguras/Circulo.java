@@ -16,30 +16,29 @@ public class Circulo extends Figura
         //Se hace cast a circulo ya que el atributo radio no existe en la clase Object :)
     }*/
     
-    @Override 
+    /*@Override 
     public String toString(){
         return ("Circulo con area: " + super.toString()); /*el objeto super accede a los metodos 
         del padre o superclase inmediata
-        */
-    }
-    public Circulo(float r){
-        radio = r;
+        
+    }*/
+    public Circulo(int x, int y){
+        super(x,y);
     }
     
-    public void calculaArea(){
+    /*public void calculaArea(){
         area = (float)(3.141592*radio*radio)/2;
-    }
+    }*/
     
-    public void ponerNombre(String nom){
+    /*public void ponerNombre(String nom){
         nombre = nom;
-    }
+    }*/
     
-    public String dimeInfo(){
+    /*public String dimeInfo(){
         return nombre + " " + super.dimeInfo();
-    }
+    }*/
     
     public void pintaFigura(){
-        Ventana ven= new Ventana(400,400);
-        ven.setVisible(true);
+       
     }
 }

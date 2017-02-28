@@ -5,41 +5,39 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Figura 
+abstract public class Figura 
 {
-   protected float area;
-   protected String nombre;
-   @Override
-    public boolean equals(Object obj){
+//   protected float area;
+   private String nombre;
+   private int posX;
+   private int posY;
+   /*@Override
+   public boolean equals(Object obj){
         return this.area==((Figura)obj).area;
-    }
-   @Override
+    }*/
+   /*@Override
    public String toString(){
         return ("" + area);
-    }
-   public Figura(){
-       area = 0;
+   }*/
+   public Figura(int x, int y){
+       posX=x;
+       posY=y;
        nombre="";
-   }
-   
-   public void calculaArea(){
-       
-   }
-   
-   public float accedeArea(){
-       return area;
    }
    
    public String accedeNombre(){
        return nombre;
    }
+ 
+   abstract public void pintaFigura();
    
-   public String dimeInfo(){
-       return "" + area;
+   public int getPosX(){
+       return posX;
    }
-   
-   public void pintaFigura(){
-       Ventana v=new Ventana(800,600);
-       v.setVisible(true);
+   public int getPosY(){
+       return posY;
+   }
+   public String getName(){
+       return nombre;
    }
 }

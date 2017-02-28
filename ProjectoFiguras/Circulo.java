@@ -37,4 +37,9 @@ public class Circulo extends Figura
     public String dimeInfo(){
         return nombre + " " + super.dimeInfo();
     }
+    
+    public void pintaFigura(){
+        Ventana ven= new Ventana(400,400);
+        ven.setVisible(true);
+    }
 }

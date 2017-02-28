@@ -29,6 +29,8 @@ public class Cuadrado extends Figura
     }
     
     public void pintaFigura(){
+        Ventana ven= new Ventana(400,400);
+        ven.setVisible(true);
     }
     
 }

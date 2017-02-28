@@ -37,17 +37,15 @@ public class Principal
       t1.ponerNombre("Triangulo");
       c1.ponerNombre("Cuadrado");
       cc1.ponerNombre("Circulo");
-      
-      /*for(Figura f:arr){
-          System.out.println(f);
-      }*/
-      
+      //El Metodo toString fue sobreescrito.
       Figura f1=new Circulo(3);
       Figura f2=new Triangulo(3,6);
-      if(f1.equals(f2)){
+      /*if(f1.equals(f2)){ //El Metodo equals esta sobreescrito
           System.out.println("Son iguales");
       }else{
           System.out.println("Son diferentes");
-      }
+      }*/
+      
+      f2.pintaFigura();
    }
 }

@@ -9,4 +9,6 @@ comment3.params=nom
 comment3.target=void\ ponerNombre(java.lang.String)
 comment4.params=
 comment4.target=java.lang.String\ dimeInfo()
-numComments=5
+comment5.params=
+comment5.target=void\ pintaFigura()
+numComments=6

@@ -9,6 +9,8 @@ public class Triangulo extends Figura
 {
     private float base;
     private float altura;
+    private float x;
+    private float y;
     @Override
     public String toString(){
         return ("Triangulo con area: " + super.toString());
@@ -28,5 +30,10 @@ public class Triangulo extends Figura
     
     public String dimeInfo(){
         return nombre + " " + super.dimeInfo();
+    }
+    
+    public void pintaFigura(){
+        Ventana ven= new Ventana(400,400);
+        ven.setVisible(true);
     }
 }

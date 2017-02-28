@@ -30,7 +30,7 @@ public class Principal
           System.out.println(f.accedeArea()); 
        }*/
       
-     /* for(Figura fig:arr){ //For mejorado
+      for(Figura fig:arr){ //For mejorado
          fig.calculaArea();
          //System.out.println(fig.accedeArea());
       }
@@ -38,7 +38,7 @@ public class Principal
       c1.ponerNombre("Cuadrado");
       cc1.ponerNombre("Circulo");
       
-      for(Figura f:arr){
+      /*for(Figura f:arr){
           System.out.println(f);
       }*/
       

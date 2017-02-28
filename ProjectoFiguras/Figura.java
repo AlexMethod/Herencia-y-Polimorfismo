@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Figura
+public class Figura 
 {
    protected float area;
    protected String nombre;
@@ -36,5 +36,10 @@ public class Figura
    
    public String dimeInfo(){
        return "" + area;
+   }
+   
+   public void pintaFigura(){
+       Ventana v=new Ventana(800,600);
+       v.setVisible(true);
    }
 }

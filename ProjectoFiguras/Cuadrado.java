@@ -28,4 +28,7 @@ public class Cuadrado extends Figura
         return nombre + " " + super.dimeInfo();
     }
     
+    public void pintaFigura(){
+    }
+    
 }

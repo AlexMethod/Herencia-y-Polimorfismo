@@ -8,7 +8,6 @@
 abstract public class Figura 
 {
 //   protected float area;
-   private String nombre;
    private int posX;
    private int posY;
    /*@Override
@@ -22,11 +21,6 @@ abstract public class Figura
    public Figura(int x, int y){
        posX=x;
        posY=y;
-       nombre="";
-   }
-   
-   public String accedeNombre(){
-       return nombre;
    }
  
    abstract public void pintaFigura();
@@ -36,8 +30,5 @@ abstract public class Figura
    }
    public int getPosY(){
        return posY;
-   }
-   public String getName(){
-       return nombre;
    }
 }

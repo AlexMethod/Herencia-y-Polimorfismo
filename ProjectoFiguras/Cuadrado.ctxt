@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=x\ y
-comment0.target=Cuadrado(int,\ int)
+comment0.params=x\ y\ l
+comment0.target=Cuadrado(int,\ int,\ int)
 comment0.text=@Override\ \r\n\ \ \ public\ String\ toString(){\r\n\ \ \ \ \ \ \ \ return\ ("Cuadrado\ con\ area\:\ "\ +\ super.toString());\r\n}
 comment1.params=
 comment1.target=void\ pintaFigura()
 comment1.text=public\ String\ dimeInfo(){\r\n\ \ \ \ \ \ \ \ return\ nombre\ +\ "\ "\ +\ super.dimeInfo();\r\n}
-numComments=2
+comment2.params=g
+comment2.target=void\ pintaFigura(java.awt.Graphics)
+numComments=3

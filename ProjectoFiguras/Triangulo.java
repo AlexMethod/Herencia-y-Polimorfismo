@@ -5,6 +5,8 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
+import java.awt.Graphics2D;
+import java.awt.Graphics;
 public class Triangulo extends Figura
 {
     private float base;

@@ -28,5 +28,6 @@ public class Principal
       }else{
           System.out.println("Son diferentes");
       }*/
+      Ventana ventana=new Ventana(400,500);
    }
 }

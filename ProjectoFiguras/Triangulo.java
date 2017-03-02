@@ -9,16 +9,16 @@ import java.awt.Graphics2D;
 import java.awt.Graphics;
 public class Triangulo extends Figura
 {
-    private float base;
-    private float altura;
-    private float x;
-    private float y;
-    @Override
+    private int base;
+    private int altura;
+    /*@Override
     public String toString(){
         return ("Triangulo con area: " + super.toString());
-    }
-    public Triangulo (int x,int y){
+    }*/
+    public Triangulo (int x,int y,int b, int a){
         super(x,y);
+        base=b;
+        altura=a;
     }
     
     /*public void calculaArea(){
@@ -33,7 +33,11 @@ public class Triangulo extends Figura
         return nombre + " " + super.dimeInfo();
     }*/
     
-    public void pintaFigura(){
-        
+     @Override
+    public void pintaFigura(Graphics g){
+        Graphics2D g2D = (Graphics2D)g;
+          g2D.drawLine(super.getPosX(),super.getPosY(), super.getPosX()+(base/2), super.getPosY()+altura);
+          g2D.drawLine(super.getPosX()+(base/2), super.getPosY()+altura, super.getPosX()-(base/2), super.getPosY()+altura);
+          g2D.drawLine(super.getPosX(),super.getPosY(),super.getPosX()-(base/2), super.getPosY()+altura);
     }
 }

@@ -5,6 +5,8 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 abstract public class Figura 
 {
 //   protected float area;
@@ -23,7 +25,7 @@ abstract public class Figura
        posY=y;
    }
  
-   abstract public void pintaFigura();
+   abstract public void pintaFigura(Graphics g);
    
    public int getPosX(){
        return posX;

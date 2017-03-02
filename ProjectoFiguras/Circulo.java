@@ -10,7 +10,7 @@ import java.awt.Graphics;
 public class Circulo extends Figura
 {
     
-    private float radio;
+    private int radio;
     
     /*@Override
     public boolean equals(Object obj){
@@ -24,8 +24,9 @@ public class Circulo extends Figura
         del padre o superclase inmediata
         
     }*/
-    public Circulo(int x, int y){
+    public Circulo(int x, int y,int r){
         super(x,y);
+        radio=r;
     }
     
     /*public void calculaArea(){
@@ -40,7 +41,9 @@ public class Circulo extends Figura
         return nombre + " " + super.dimeInfo();
     }*/
     
-    public void pintaFigura(){
-       
+    @Override
+    public void pintaFigura(Graphics g){
+        Graphics2D g2D = (Graphics2D)g;
+        g2D.drawOval(super.getPosX(),super.getPosY(), radio, radio);
     }
 }

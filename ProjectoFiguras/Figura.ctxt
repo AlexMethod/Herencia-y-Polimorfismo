@@ -2,8 +2,8 @@
 comment0.params=x\ y
 comment0.target=Figura(int,\ int)
 comment0.text=@Override\r\n\ \ \ public\ String\ toString(){\r\n\ \ \ \ \ \ \ \ return\ (""\ +\ area);\r\n}
-comment1.params=
-comment1.target=void\ pintaFigura()
+comment1.params=g
+comment1.target=void\ pintaFigura(java.awt.Graphics)
 comment2.params=
 comment2.target=int\ getPosX()
 comment3.params=

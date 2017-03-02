@@ -23,11 +23,6 @@ public class Cuadrado extends Figura
         return nombre + " " + super.dimeInfo();
     }*/
     @Override
-    public void pintaFigura(){
-        Ventana ven= new Ventana(400,400);
-        ven.setVisible(true);
-    }
-    
     public void pintaFigura(Graphics g){
         Graphics2D g2D = (Graphics2D)g;
         g2D.drawRect(super.getPosX(),super.getPosY(),lado,lado);

@@ -7,6 +7,7 @@
  */
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.awt.Graphics;
 public class Principal
 {
    public static void main(String[]args){
@@ -28,6 +29,8 @@ public class Principal
       }else{
           System.out.println("Son diferentes");
       }*/
-      Ventana ventana=new Ventana(400,500);
+      
+      Ventana vent=new Ventana(700,800);
+      vent.setVisible(true);
    }
 }

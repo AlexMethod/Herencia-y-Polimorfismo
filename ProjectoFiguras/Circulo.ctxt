@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.params=x\ y
-comment0.target=Circulo(int,\ int)
+comment0.params=x\ y\ r
+comment0.target=Circulo(int,\ int,\ int)
 comment0.text=@Override\ \r\n\ \ \ \ public\ String\ toString(){\r\n\ \ \ \ \ \ \ \ return\ ("Circulo\ con\ area\:\ "\ +\ super.toString());\ /*el\ objeto\ super\ accede\ a\ los\ metodos\ \r\n\ \ \ \ \ \ \ \ del\ padre\ o\ superclase\ inmediata\r\n\ \ \ \ \ \ \ \ \r\n}
-comment1.params=
-comment1.target=void\ pintaFigura()
+comment1.params=g
+comment1.target=void\ pintaFigura(java.awt.Graphics)
 comment1.text=public\ String\ dimeInfo(){\r\n\ \ \ \ \ \ \ \ return\ nombre\ +\ "\ "\ +\ super.dimeInfo();\r\n}
 numComments=2

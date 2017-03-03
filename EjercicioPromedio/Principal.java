@@ -20,6 +20,19 @@ public class Principal
        banc.agregaCuenta(cuenta3);
        
        float promedio=banc.calculaProm();
-       System.out.println(promedio);
+       //System.out.println(promedio);
+       
+       
+        Planeta planet = new Planeta();
+       Pais p1=new Pais(25);
+       Pais p2=new Pais(32);
+       Pais p3=new Pais(94);
+       
+       planet.agregaPais(p1);
+       planet.agregaPais(p2);
+       planet.agregaPais(p3);
+       
+       float promedio1=planet.calculaProm();
+       System.out.println("Promedio paises: " +promedio1);
    }
 }

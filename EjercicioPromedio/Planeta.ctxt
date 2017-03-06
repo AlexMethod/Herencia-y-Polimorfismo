@@ -4,6 +4,4 @@ comment0.target=Planeta()
 comment0.text=\r\n\ Escribir\ un\ m\u00E9todo\ en\ la\ clase\ Planeta\ para\ calcular\ el\ *promedio*\ de\ habitantes\ de\ todos\ los\ pa\u00EDses.\ \r\n\ El\ m\u00E9todo\ no\ recibe\ par\u00E1metros\ y\ regresa\ el\ n\u00FAmero\ de\ habitantes\ en\ promedio\ por\ pa\u00EDs\ en\ el\ planeta.\r\n
 comment1.params=p
 comment1.target=void\ agregaPais(Pais)
-comment2.params=
-comment2.target=float\ calculaProm()
-numComments=3
+numComments=2

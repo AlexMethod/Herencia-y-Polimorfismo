@@ -20,14 +20,4 @@ public class Banco
     public void agregaCuenta(CuentaBancaria cuenta){
         coleccion.add(cuenta);
     }
-    
-    public float calculaProm(){
-        int sum=0;
-        for(int i=0;i<coleccion.size();i++){
-            sum=sum + (coleccion.get(i)).getSaldo();
-            
-        }
-        float prom=(float)sum/(float)coleccion.size();
-        return prom;
-    }
 }

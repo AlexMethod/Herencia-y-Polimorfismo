@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Pais
+public class Pais implements Medible
 {
    private int habitantes;
     
@@ -13,7 +13,7 @@ public class Pais
     public Pais(int h){
         habitantes=h;
     }
-    public int getHabitantes(){
+    public double getMedida(){
         return habitantes;
     }
 }

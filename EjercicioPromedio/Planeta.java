@@ -20,13 +20,5 @@ public class Planeta
        paises.add(p);
    }
    
-   public float calculaProm(){
-       int sum=0;
-       for(int i=0;i<paises.size();i++){
-           sum=sum + (paises.get(i)).getHabitantes();
-       }
-       
-       float prom = (float)sum/(float)paises.size();
-       return prom;
-   }
+   
 }

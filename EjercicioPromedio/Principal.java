@@ -7,9 +7,7 @@
  */
 public class Principal
 {
-    /*
-     . El main crea un banco y agrega tres cuentas bancarias con un saldo de 100, 200 y 300.
-     */
+    
    public static void main(String[]args){
        Banco banc=new Banco();
        Medible[] cuentas=new Medible[3];

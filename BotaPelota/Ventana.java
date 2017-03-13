@@ -24,7 +24,7 @@ public class Ventana extends JFrame
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         EscuchadorTiempo escuchaTiempo=new EscuchadorTiempo();//determina la accion a ejecutar 
-        Timer tiempo = new Timer(1000,escuchaTiempo); //
+        Timer tiempo = new Timer(50,escuchaTiempo); //
         tiempo.start();
     }
     
